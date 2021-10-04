@@ -17,15 +17,17 @@ for(i=0; i<5; i++){
 int maxFrequency;
 float maxValue;
 int l,m;
-    for(l=0;l<5;l++)
-        {
-        int frequency = 0;
-        for(m=0;m<5;m++);
-            {
-            if(num[l]==num[m])
-                {
-                frequency++;
-                }
+for(l=0;l<5;l++)
+    {
+    int frequency = 0;
+    for(m=0;m<5;m++);
+       {
+printf("XXXXX", l, m);
+       if(num[l]==num[m])
+           {
+           frequency++;
+           printf("Temp freq is: %d", frequency);
+            }
             }
         if(frequency>maxFrequency)
             {
@@ -33,7 +35,7 @@ int l,m;
             maxValue = num[l];
             }
         }
-printf("The mode is: %f\n", maxValue);
+printf("The mode is: %f", maxValue);
 }
 
 
