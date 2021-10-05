@@ -6,7 +6,7 @@
 # Variables
 CC=gcc
 # ADD YOUR PROGRAM NAME HERE
-APP=partThree
+APP=partone
 OBJ=$(APP).o
 EXE=$(APP).exe
 LOG=$(APP).log
